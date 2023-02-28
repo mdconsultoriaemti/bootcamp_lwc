@@ -1,0 +1,9 @@
+<!-- app.html -->
+<template>
+	<div>
+		<lightning-button label="Altera Bike" onclick={functionAlteraBike}></lightning-button>
+	</div>
+	<div>
+		<c-bike bike={bike}></c-bike>
+	</div>
+</template>
